@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".screeen2">
+
+    <TextView
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-black"
+        android:hint="  رائع ... لقد اصبحت من فريقنا🔥  : "
+        android:padding="10dp"
+        android:textSize="29sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-black"
+            android:text="   معلوماتك الشخصية:   "
+            android:textColor="#EB606060"
+            android:textSize="36sp" />
+
+        <EditText
+            android:id="@+id/nam1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#cdac79"
+            android:autofillHints=""
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#795548"
+            android:textSize="22sp"
+            android:paddingRight="25dp"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:background="#cdac79"
+            android:autofillHints=""
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#795548"
+            android:textSize="22sp"
+            android:paddingRight="25dp"
+
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:background="#cdac79"
+            android:autofillHints=""
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#795548"
+            android:textSize="22sp"
+            android:paddingRight="25dp"
+
+            tools:ignore="HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:background="#cdac79"
+            android:autofillHints=""
+            android:paddingRight="25dp"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/white"
+            android:textColorHint="#795548"
+            android:textSize="22sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="   سوف يتم التواصل معك بعد قليل"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:fontFamily="sans-serif-black"
+            />
+
+        <TextView
+            android:id="@+id/fire"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#c17D57"
+            android:textColor="#ffff"
+            android:fontFamily="sans-serif-black"
+            android:paddingRight="20dp"
+            android:text="استعد لتغيير حياتك ..."
+            android:textSize="33sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

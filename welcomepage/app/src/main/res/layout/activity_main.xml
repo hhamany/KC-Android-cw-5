@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="ExtraText">
+
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#aa8566"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:text="@string/change"
+        android:paddingRight="10dp"
+        android:textColorHint="#757575"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/nam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cdac79"
+        android:hint="  الأسم الاول :  "
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:layout_marginTop="45dp"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#795548"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:background="#cdac79"
+        android:hint="     العمر :  "
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#795548"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:background="#cdac79"
+        android:hint="     رقم الهاتف :  "
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#795548"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText,TextFields" />
+
+    <EditText
+        android:id="@+id/goal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:background="#cdac79"
+        android:hint="      الهدف :  "
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/white"
+        android:textColorHint="#795548"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="293dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#606060"
+            android:text="أرفق صورة لجسمك :"
+            android:textSize="28sp"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="200dp"
+            android:layout_height="163dp"
+            android:layout_marginStart="130dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#aa85"
+                android:text="غير حياتك الآن"
+                android:textColor="#5D4037"
+                android:textSize="33sp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
